@@ -1,6 +1,13 @@
 {
-    "extends": ["airbnb", "prettier"],
-    "plugins": ["react-native", "prettier"],
+    "extends": [
+        "airbnb",
+        "prettier",
+        "prettier/react"
+    ],
+    "plugins": [
+        "react-native",
+        "prettier"
+    ],
     "globals": {
         "it": true,
         "expect": true
